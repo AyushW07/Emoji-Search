@@ -1,0 +1,41 @@
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.container h1 {
+  color: mediumseagreen;
+  font-family: cursive;
+}
+
+input {
+  width: 10rem;
+  padding: 10px;
+  margin-bottom: 2rem;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.emoji_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 50rem;
+  margin-left: 20rem;
+}
+
+.emoji_item {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.emoji {
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+.emoji_name {
+  font-size: 16px;
+}
